@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 # Create your models here.
 
@@ -23,7 +24,7 @@ class Log(models.Model):
     
     hostel_id = models.IntegerField(verbose_name="Hostel")
 
-    time = models.DateTimeField(verbose_name="Entry Time")
+    time = models.DateTimeField(default=timezone.now, verbose_name="Entry Time")
     
     ACTIVITY_CHOICES = [
         ('EN', "Entry"),
