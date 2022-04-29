@@ -25,10 +25,10 @@ Endpoint: POST `/logentry`
 <table>
     <tbody>
         <tr>
-            <td>Name</td>
-            <td>Required</td>
-            <td>Description</td>
-            <td>Example</td>
+            <td><b>Name</b></td>
+            <td><b>Required</b></td>
+            <td><b>Description</b></td>
+            <td><b>Example</b></td>
         </tr>
         <tr>
             <td>id</td>
@@ -52,10 +52,10 @@ Endpoint: POST `/logexit`
 <table>
     <tbody>
         <tr>
-            <td>Name</td>
-            <td>Required</td>
-            <td>Description</td>
-            <td>Example</td>
+            <td><b>Name</b></td>
+            <td><b>Required</b></td>
+            <td><b>Description</b></td>
+            <td><b>Example</b></td>
         </tr>
         <tr>
             <td>id</td>
@@ -79,10 +79,10 @@ Endpoint: GET `/whosinside/<int:hostel_id>`
 <table>
     <tbody>
         <tr>
-            <td>Name</td>
-            <td>Required</td>
-            <td>Description</td>
-            <td>Example</td>
+            <td><b>Name</b></td>
+            <td><b>Required</b></td>
+            <td><b>Description</b></td>
+            <td><b>Example</b></td>
         </tr>
         <tr>
             <td>hostel_id</td>
