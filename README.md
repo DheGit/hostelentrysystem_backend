@@ -3,23 +3,25 @@ A backend server implementation to serve the data and processing needs of an ent
 
 Language used: Python
 
-# Current Features
+## Current Features
 - Record an *entry*
 - Record an *exit*
 - Get a list of students inside a hostel
 
-# Packages used
-## Django
+## Packages used
+### Django
 Install using `pip install django`
-## Django REST framework
+### Django REST framework
 Install using `pip install djangorestframework`
+### Others
+Native python libraries
 
-# API end-points
+## API end-points
 
-## Record Entry
-### URL
+### Record Entry
+#### URL
 Endpoint: POST `/logentry`
-### Request Parameters
+#### POST data parameters
 <table>
     <tbody>
         <tr>
@@ -43,10 +45,10 @@ Endpoint: POST `/logentry`
     </tbody>
 </table>
 
-## Record Exit
-### URL
+### Record Exit
+#### URL
 Endpoint: POST `/logexit`
-### Request Parameters
+#### POST data parameters
 <table>
     <tbody>
         <tr>
@@ -70,10 +72,10 @@ Endpoint: POST `/logexit`
     </tbody>
 </table>
 
-## Get students inside hotel
-### URL
+### Get students inside hotel
+#### URL
 Endpoint: GET `/whosinside/<int:hostel_id>`
-### URL Parameters
+#### URL Parameters
 <table>
     <tbody>
         <tr>
